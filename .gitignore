@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3           # SQLite database file
+*.sqlite3            # Other SQLite database files
+media/               # Media folder where user-uploaded files are stored
+staticfiles/         # Static files collected by `collectstatic`
+
+# Virtual Environment
+jinja_env/           # Virtual environment directory (name can vary)
+
+# IDEs and editors
+.vscode/              # Visual Studio Code editor settings
+.idea/                # JetBrains IDEs (e.g., PyCharm) settings
+*.sublime-workspace
+*.sublime-project
+
+# Operating System files
+.DS_Store            # macOS folder settings
+Thumbs.db            # Windows folder settings
+
+# Test Coverage Reports
+coverage/            # Test coverage directory
+
+# Environment Variables
+.env                 # Environment variable file containing sensitive data
+
+# PyInstaller
+*.manifest
+*.spec
+
+script_Jinja.txt
+Script.md

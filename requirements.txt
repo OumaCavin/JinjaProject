@@ -1,0 +1,7 @@
+Django>=4.0,<5.0        # Specifies a version of Django
+gunicorn>=20.1.0        # For deploying the app on a WSGI server
+psycopg2>=2.9.1         # PostgreSQL database adapter (replace with the one you're using, e.g., for SQLite, it might not be needed)
+django-environ>=0.9.0   # For managing environment variables
+celery>=5.2.3           # For asynchronous task management (optional)
+django-debug-toolbar>=3.2.1  # Optional, for debugging
+django-extensions>=3.1.5     # Optional, for additional management commands
